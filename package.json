@@ -1,0 +1,31 @@
+{
+  "name": "ExpenseControl",
+  "version": "1.0.0",
+  "description": "An expense control app with Nodejs and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSUERV99/ExpenseControl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSUERV99/ExpenseControl/issues"
+  },
+  "homepage": "https://github.com/JOSUERV99/ExpenseControl#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "firebase-admin": "^9.4.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
