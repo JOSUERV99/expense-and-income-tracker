@@ -32,8 +32,7 @@ router.get('/', (req, res) => {
                 movements.push(income);
             }
 
-            movements.sort(  (a, b) => b.date - a.date );
-        
+            movements.sort( (a, b) => b.date - a.date );
             res.render('index', {data : movements});
         });
     }) 
